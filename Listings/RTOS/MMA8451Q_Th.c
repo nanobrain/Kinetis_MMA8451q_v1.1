@@ -17,7 +17,7 @@ osThreadDef 	(MMA8451Q_Th, osPriorityNormal, 1, 0);                   	// thread
 uint32_t 			param;
 extern osThreadId tid_HD44780_Th;
 
-Accel_Status* __Status;
+Accel_Status __Status;
 
 osMailQId mail_box;                                        // mail queue id
 osMailQDef (mail_box, mail_obj, mail_format);              // mail queue object
@@ -25,18 +25,21 @@ osMailQDef (mail_box, mail_obj, mail_format);              // mail queue object
 int Init_MMA8451Q_Th (void) {
 	
 	mail_box = osMailCreate(osMailQ(mail_box), NULL);        // create mail queue
+	
+	__Status.DataRate = Hz800;
+	__Status.IRQ = No;
+	__Status.LowNoise = Yes;
+	__Status.mode = M_2G;
+	__Status.Power = Active;
+	Init_MMA8451q(&__Status);
+	
   tid_MMA8451Q_Th = osThreadCreate (osThread(MMA8451Q_Th), NULL);
   if(!tid_MMA8451Q_Th) return(-1);
   return(0);
 }
 
 void MMA8451Q_Th (void const *argument) {
-	//Accel_Actv();																		//IMPORTANT: TODO: Use init function
-	//Accel_WriteReg(MMA8451_CTRL_REG1, 0x1D); 				// Output Data Rate = 100 Hz
-																										// Reduced noise mode
-																										// Set ACTIVE mode
-																										// TODO: Use own functions
-	Accel_Actv_Mode(M_2G);
+	
 	param = 150;
 	CreateTimer(param);
 

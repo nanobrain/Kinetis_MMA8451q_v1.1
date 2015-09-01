@@ -2,10 +2,8 @@
 #include "I2C.h"
 #include "MMA8451Q_Drv.h"
 #include "Low_Level_Init.h"
-
-extern Accel_Status* __Status;
-
-void Init_MMA8451q(Accel_Status Status)
+																																									//TODO: Write default init function ( faster )
+void Init_MMA8451q(Accel_Status* Status)
 {
 	//|////////////////////0x2A CTRL_REG1 Register (Read/Write)////////////////////|//
 	//|////////////////////////////////////////////////////////////////////////////|//
@@ -19,9 +17,10 @@ void Init_MMA8451q(Accel_Status Status)
 	//| 	------  |    00    |    0    | HPF_OUT |   0   |   0    | FS1   |  FS0   |//
 	//|////////////////////////////////////////////////////////////////////////////|//
 	Accel_Set_Data_Rate(Status);
+	Accel_Noise(Status);
 	Accel_Actv_Mode(Status);
-	
 }
+
 uint8_t Accel_ReadReg(uint8_t registerAddr){
   uint8_t data;
 
@@ -90,16 +89,28 @@ int16_t Accel_ReadAxis(Axis a) {
   return value;
 }
 
-void Accel_Stb(void){
+
+void Accel_Noise(Accel_Status* Status){
 	uint8_t reg;
-	__Status.Power = StandBy;
+	Accel_Stb(Status);
+	
+	reg = Accel_ReadReg(MMA8451_CTRL_REG1);
+	if(Status->LowNoise) Accel_WriteReg(MMA8451_CTRL_REG1, reg & LOW_NOISE_MASK);
+	else Accel_WriteReg(MMA8451_CTRL_REG1,~reg | LOW_NOISE_MASK);
+	
+	Accel_Actv(Status);
+}
+
+void Accel_Stb(Accel_Status* Status){
+	uint8_t reg;
+	Status->Power = StandBy;
 	reg = Accel_ReadReg(MMA8451_CTRL_REG1);
 	Accel_WriteReg(MMA8451_CTRL_REG1,~reg | ACTIVE_MASK);
 }
 
-void Accel_Actv(void){
+void Accel_Actv(Accel_Status* Status){
 	uint8_t reg;
-	__Status.Power = Active;
+	Status->Power = Active;
 	reg = Accel_ReadReg(MMA8451_CTRL_REG1);
 	Accel_WriteReg(MMA8451_CTRL_REG1,reg & ACTIVE_MASK);
 }
@@ -107,7 +118,7 @@ void Accel_Actv(void){
 void Accel_Actv_Mode(Accel_Status* Status){
 	uint8_t reg;
 	
-	Accel_Stb();
+	Accel_Stb(Status);
 
 	reg = Accel_ReadReg(MMA8451_XYZ_DATA_CFG);
 	
@@ -130,7 +141,7 @@ void Accel_Actv_Mode(Accel_Status* Status){
 		default: break;
 	}
 	
-	Accel_Actv();
+	Accel_Actv(Status);
 }
 void Accel_Set_Data_Rate(Accel_Status* Status){
 /*|	DR2	|	DR1	|	DR0	|  Rate   |
@@ -144,11 +155,11 @@ void Accel_Set_Data_Rate(Accel_Status* Status){
  *|  1  |  1  |  1  | 1.536Hz |
  */
 	uint8_t reg;
-	Accel_Stb();																						// IMPORTANT:
+	Accel_Stb(Status);																						// IMPORTANT:
 	reg = Accel_ReadReg(MMA8451_CTRL_REG1);									// TODO: <-Check if that works at all
 	Accel_WriteReg(MMA8451_CTRL_REG1,~reg & DR_MASK);				//
 	if(Status->DataRate) Accel_WriteReg(MMA8451_CTRL_REG1,reg | Status->DataRate);
-	Accel_Actv();
+	Accel_Actv(Status);
 }
 
 																													//TODO: write other functions returning different types of result

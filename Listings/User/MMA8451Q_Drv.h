@@ -42,6 +42,7 @@
 /////////////////////////////////////////////////////////
 #define ACTIVE_MASK								0x01
 #define FS_MASK										0x03
+#define LOW_NOISE_MASK						0x04
 #define FS_4G_MASK								0x01
 #define FS_8G_MASK								0x02
 #define DR_MASK										0x03
@@ -109,9 +110,11 @@ typedef struct
 {
 	Accel_Mode mode;					//2g,4g,8g
 	Accel_dRate DataRate;			//Hz														//TODO: Fill up with all options
-	Accel_Power Power;				//Active/StandBy								//TODO: Write init function
+	Accel_Power Power;				//Active/StandBy
 	Accel_IRQ IRQ;						//yes/no
 	Accel_LowNoise LowNoise;	//yes/no
+	//High Pass Filter
+	//FIFO
 	//...
 } Accel_Status;
 
@@ -125,8 +128,10 @@ typedef struct {                                           // object data type
 uint8_t Accel_ReadReg(uint8_t registerAddr);
 void Accel_WriteReg(uint8_t registerAddr, uint8_t registerData);
 int16_t Accel_ReadAxis(Axis a);
-void Accel_Stb(void);
-void Accel_Actv(void);
+void Accel_Stb(Accel_Status* Status);
+void Accel_Actv(Accel_Status* Status);
 void Accel_Set_Data_Rate(Accel_Status* Status);
 void Accel_Actv_Mode(Accel_Status* Status);
-char* Accel_s14FracOut(char* result, int16_t data);
+void Accel_Noise(Accel_Status* Status);
+void Init_MMA8451q(Accel_Status* Status);
+char* Accel_s14FracOut(Accel_Status* Status, char* result, int16_t data);

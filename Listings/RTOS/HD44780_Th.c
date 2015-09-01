@@ -20,6 +20,7 @@ extern char 		LCD_LINE2[16];
 			 char			bufferZ[7];
 			 uint16_t	cnt=0;
 extern osMailQId mail_box;                                        // mail queue id
+extern Accel_Status __Status;
 
 int Init_HD44780_Th (void) {
 
@@ -40,9 +41,9 @@ void HD44780_Th (void const *argument) {
 			
 			if(cnt%4==0)RGB(0,1,0);
 
-			Accel_s14FracOut(bufferX, bufferRx->x_Value);
-			Accel_s14FracOut(bufferY, bufferRx->y_Value);
-			Accel_s14FracOut(bufferZ, bufferRx->z_Value);
+			Accel_s14FracOut(&__Status, bufferX, bufferRx->x_Value);
+			Accel_s14FracOut(&__Status, bufferY, bufferRx->y_Value);
+			Accel_s14FracOut(&__Status, bufferZ, bufferRx->z_Value);
 			
 			strcpy(LCD_LINE1," x=");
 			strcat(LCD_LINE1,bufferX);

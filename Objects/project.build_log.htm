@@ -22,41 +22,15 @@ Dialog DLL:      TARMCM1.DLL V1.9.0.0
  
 <h2>Project:</h2>
 C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\project.uvprojx
-Project File Date:  08/17/2015
+Project File Date:  09/01/2015
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\Trial\ARM\ARMCC\Bin'
-Rebuild target 'Target 1'
-compiling HD44780_Th.c...
-compiling main.c...
+Build target 'Target 1'
 compiling MMA8451Q_Th.c...
-Listings\RTOS\MMA8451Q_Th.c(39): error:  #167: argument of type "int" is incompatible with parameter of type "Accel_Status *"
-        Accel_Actv_Mode(M_2G);
-Listings\RTOS\MMA8451Q_Th.c: 0 warnings, 1 error
-assembling SVC_Table.s...
-compiling Delay.c...
-compiling HD44780.c...
-compiling I2C.c...
-compiling LED.c...
-compiling Low_Level_Init.c...
-compiling MMA8451Q_Drv.c...
-Listings\User\MMA8451Q_Drv.c(21): error:  #167: argument of type "Accel_Status" is incompatible with parameter of type "Accel_Status *"
-        Accel_Set_Data_Rate(Status);
-Listings\User\MMA8451Q_Drv.c(22): error:  #167: argument of type "Accel_Status" is incompatible with parameter of type "Accel_Status *"
-        Accel_Actv_Mode(Status);
-Listings\User\MMA8451Q_Drv.c(95): error:  #154: expression must have struct or union type
-        __Status.Power = StandBy;
-Listings\User\MMA8451Q_Drv.c(102): error:  #154: expression must have struct or union type
-        __Status.Power = Active;
-Listings\User\MMA8451Q_Drv.c(156): error:  #147-D: declaration is incompatible with "char *Accel_s14FracOut(char *, int16_t)" (declared at line 132 of "Listings\User\MMA8451Q_Drv.h")
-  char* Accel_s14FracOut(Accel_Status* Status, char* result, int16_t data)
-Listings\User\MMA8451Q_Drv.c(160): warning:  #177-D: variable "data_lo" was declared but never referenced
-        uint8_t data_lo = data & 0x00FF;
-Listings\User\MMA8451Q_Drv.c: 1 warning, 5 errors
-compiling RTX_Conf_CM.c...
-assembling startup_MKL25Z4.s...
-compiling system_MKL25Z4.c...
-".\Objects\project.axf" - 6 Error(s), 1 Warning(s).
+linking...
+Program Size: Code=10384 RO-data=364 RW-data=128 ZI-data=4520  
+".\Objects\project.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -87,24 +61,23 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:4.1.0
 
    * Component: ARM::CMSIS:RTOS:Keil RTX:4.78.0
-      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
       Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
       Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
       Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
-      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
       Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM0.lib
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
       Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\system_MKL25Z4.c
       Source file:   Device\Source\ARM\startup_MKL25Z4.s
-Target not created.
+      Source file:   Device\Source\system_MKL25Z4.c
 </pre>
 </body>
 </html>
