@@ -1,0 +1,385 @@
+Dependencies for Project 'project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Listings\RTOS\HD44780_Th.c)(0x55E58995)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\hd44780_th.o --omf_browse .\objects\hd44780_th.crf --depend .\objects\hd44780_th.d)
+I (C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502EFAE)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stddef.h)(0x54C2B638)
+I (.\Listings\User\Low_Level_Init.h)(0x55E4EED1)
+I (.\Listings\User\HD44780.h)(0x55CB18FD)
+I (.\Listings\User\LED.h)(0x55D11A7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\string.h)(0x54C2B638)
+I (.\Listings\User\MMA8451Q_Drv.h)(0x55E5918B)
+F (.\Listings\RTOS\main.c)(0x55D27391)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (Listings\RTOS\osObjects.h)(0x51ADD980)
+I (C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502EFAE)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stddef.h)(0x54C2B638)
+I (.\Listings\User\fsl_device_registers.h)(0x55D10FD5)
+I (.\Listings\Device\MKL25Z4\MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cm0plus.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmInstr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmFunc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\system_MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_adc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\fsl_bitaccess.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdlib.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_cmp.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dac.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dma.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dmamux.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_fgpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_ftfa.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_gpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_i2c.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_llwu.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_lptmr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcg.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtb.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtbdwt.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_nv.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_osc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pit.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pmc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_port.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rom.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rtc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_sim.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_smc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_spi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tpm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tsi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart0.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_usb.h)(0x55A17F7F)
+I (.\Listings\User\Low_Level_Init.h)(0x55E4EED1)
+I (.\Listings\User\I2C.h)(0x55C708BC)
+I (.\Listings\User\HD44780.h)(0x55CB18FD)
+F (.\Listings\RTOS\MMA8451Q_Th.c)(0x55E58DB2)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\mma8451q_th.o --omf_browse .\objects\mma8451q_th.crf --depend .\objects\mma8451q_th.d)
+I (C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502EFAE)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stddef.h)(0x54C2B638)
+I (.\Listings\User\Low_Level_Init.h)(0x55E4EED1)
+I (.\Listings\User\MMA8451Q_Drv.h)(0x55E5918B)
+F (.\SVC_Table.s)(0x5411C1A2)(--cpu Cortex-M0+ --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "MKL25Z128xxx4 SETA 1"--list .\listings\svc_table.lst --xref -o .\objects\svc_table.o --depend .\objects\svc_table.d)
+F (.\Listings\Device\MKL25Z4\core_cm0plus.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\core_cmFunc.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\core_cmInstr.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\fsl_bitaccess.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_adc.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_cmp.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_dac.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_dma.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_dmamux.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_fgpio.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_ftfa.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_gpio.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_i2c.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_llwu.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_lptmr.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_mcg.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_mcm.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_memory.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_mtb.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_mtbdwt.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_nv.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_osc.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_pins.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_pit.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_pmc.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_port.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_rcm.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_rom.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_rtc.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_sim.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_smc.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_spi.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_tpm.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_tsi.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_uart.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_uart0.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\MKL25Z4_usb.h)(0x55A17F7F)()
+F (.\Listings\Device\MKL25Z4\system_MKL25Z4.h)(0x55A17F7F)()
+F (.\Listings\User\Delay.c)(0x55CC9420)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (Listings\User\fsl_device_registers.h)(0x55D10FD5)
+I (.\Listings\Device\MKL25Z4\MKL25Z4.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\core_cm0plus.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmInstr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmFunc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\system_MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_adc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\fsl_bitaccess.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdlib.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_cmp.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dac.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dma.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dmamux.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_fgpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_ftfa.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_gpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_i2c.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_llwu.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_lptmr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcg.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtb.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtbdwt.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_nv.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_osc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pit.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pmc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_port.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rom.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rtc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_sim.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_smc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_spi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tpm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tsi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart0.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_usb.h)(0x55A17F7F)
+F (.\Listings\User\Delay.h)(0x55AAD51C)()
+F (.\Listings\User\fsl_device_registers.h)(0x55D10FD5)()
+F (.\Listings\User\HD44780.c)(0x55E58A88)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\hd44780.o --omf_browse .\objects\hd44780.crf --depend .\objects\hd44780.d)
+I (Listings\User\fsl_device_registers.h)(0x55D10FD5)
+I (.\Listings\Device\MKL25Z4\MKL25Z4.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\core_cm0plus.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmInstr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmFunc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\system_MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_adc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\fsl_bitaccess.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdlib.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_cmp.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dac.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dma.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dmamux.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_fgpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_ftfa.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_gpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_i2c.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_llwu.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_lptmr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcg.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtb.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtbdwt.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_nv.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_osc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pit.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pmc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_port.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rom.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rtc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_sim.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_smc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_spi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tpm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tsi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart0.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_usb.h)(0x55A17F7F)
+I (Listings\User\Low_Level_Init.h)(0x55E4EED1)
+I (Listings\User\HD44780.h)(0x55CB18FD)
+I (C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502EFAE)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stddef.h)(0x54C2B638)
+F (.\Listings\User\HD44780.h)(0x55CB18FD)()
+F (.\Listings\User\I2C.c)(0x55D10FB0)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (Listings\User\fsl_device_registers.h)(0x55D10FD5)
+I (.\Listings\Device\MKL25Z4\MKL25Z4.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\core_cm0plus.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmInstr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmFunc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\system_MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_adc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\fsl_bitaccess.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdlib.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_cmp.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dac.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dma.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dmamux.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_fgpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_ftfa.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_gpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_i2c.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_llwu.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_lptmr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcg.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtb.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtbdwt.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_nv.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_osc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pit.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pmc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_port.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rom.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rtc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_sim.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_smc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_spi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tpm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tsi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart0.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_usb.h)(0x55A17F7F)
+I (Listings\User\I2C.h)(0x55C708BC)
+F (.\Listings\User\I2C.h)(0x55C708BC)()
+F (.\Listings\User\LED.c)(0x55D11473)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502EFAE)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stddef.h)(0x54C2B638)
+I (Listings\User\Low_Level_Init.h)(0x55E4EED1)
+I (Listings\User\LED.h)(0x55D11A7F)
+I (Listings\User\Delay.h)(0x55AAD51C)
+I (Listings\User\fsl_device_registers.h)(0x55D10FD5)
+I (.\Listings\Device\MKL25Z4\MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cm0plus.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmInstr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmFunc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\system_MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_adc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\fsl_bitaccess.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdlib.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_cmp.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dac.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dma.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dmamux.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_fgpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_ftfa.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_gpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_i2c.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_llwu.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_lptmr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcg.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtb.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtbdwt.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_nv.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_osc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pit.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pmc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_port.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rom.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rtc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_sim.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_smc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_spi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tpm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tsi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart0.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_usb.h)(0x55A17F7F)
+F (.\Listings\User\LED.h)(0x55D11A7F)()
+F (.\Listings\User\Low_Level_Init.c)(0x55E4EED2)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\low_level_init.o --omf_browse .\objects\low_level_init.crf --depend .\objects\low_level_init.d)
+I (Listings\User\fsl_device_registers.h)(0x55D10FD5)
+I (.\Listings\Device\MKL25Z4\MKL25Z4.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\core_cm0plus.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmInstr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmFunc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\system_MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_adc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\fsl_bitaccess.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdlib.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_cmp.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dac.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dma.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dmamux.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_fgpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_ftfa.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_gpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_i2c.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_llwu.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_lptmr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcg.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtb.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtbdwt.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_nv.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_osc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pit.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pmc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_port.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rom.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rtc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_sim.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_smc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_spi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tpm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tsi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart0.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_usb.h)(0x55A17F7F)
+I (Listings\User\Low_Level_Init.h)(0x55E4EED1)
+I (Listings\User\HD44780.h)(0x55CB18FD)
+F (.\Listings\User\Low_Level_Init.h)(0x55E4EED1)()
+F (.\Listings\User\MMA8451Q_Drv.c)(0x55E59181)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\mma8451q_drv.o --omf_browse .\objects\mma8451q_drv.crf --depend .\objects\mma8451q_drv.d)
+I (Listings\User\fsl_device_registers.h)(0x55D10FD5)
+I (.\Listings\Device\MKL25Z4\MKL25Z4.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\core_cm0plus.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmInstr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmFunc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\system_MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_adc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\fsl_bitaccess.h)(0x55A17F7F)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdlib.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_cmp.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dac.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dma.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_dmamux.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_fgpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_ftfa.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_gpio.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_i2c.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_llwu.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_lptmr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcg.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtb.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_mtbdwt.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_nv.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_osc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pit.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_pmc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_port.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rcm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rom.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_rtc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_sim.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_smc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_spi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tpm.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_tsi.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_uart0.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\MKL25Z4_usb.h)(0x55A17F7F)
+I (Listings\User\I2C.h)(0x55C708BC)
+I (Listings\User\MMA8451Q_Drv.h)(0x55E5918B)
+I (Listings\User\Low_Level_Init.h)(0x55E4EED1)
+F (.\Listings\User\MMA8451Q_Drv.h)(0x55E5918B)()
+F (C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM0.lib)(0x550AE1E6)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x55D10B68)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5502EFAE)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stddef.h)(0x54C2B638)
+I (C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x5502EFAE)
+F (RTE\Device\MKL25Z128xxx4\startup_MKL25Z4.s)(0x516801F6)(--cpu Cortex-M0+ --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "MKL25Z128xxx4 SETA 1"--list .\listings\startup_mkl25z4.lst --xref -o .\objects\startup_mkl25z4.o --depend .\objects\startup_mkl25z4.d)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.c)(0x55D11485)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I.\Listings\Device\MKL25Z4 -I.\Listings\User -I.\Listings\RTOS-I C:\Users\admin\Documents\GitHub\uVision\Kinetis_MMA8451q_v1.1\RTE-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\Trial\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DMKL25Z128xxx4-o .\objects\system_mkl25z4.o --omf_browse .\objects\system_mkl25z4.crf --depend .\objects\system_mkl25z4.d)
+I (C:\Keil_v5\Trial\ARM\ARMCC\include\stdint.h)(0x54C2B638)
+I (.\Listings\Device\MKL25Z4\MKL25Z4.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cm0plus.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmInstr.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\core_cmFunc.h)(0x55A17F7F)
+I (.\Listings\Device\MKL25Z4\system_MKL25Z4.h)(0x55A17F7F)

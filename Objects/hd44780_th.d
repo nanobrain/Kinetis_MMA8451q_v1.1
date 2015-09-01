@@ -1,0 +1,9 @@
+.\objects\hd44780_th.o: Listings\RTOS\HD44780_Th.c
+.\objects\hd44780_th.o: C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+.\objects\hd44780_th.o: C:\Keil_v5\Trial\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hd44780_th.o: C:\Keil_v5\Trial\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\hd44780_th.o: .\Listings\User\Low_Level_Init.h
+.\objects\hd44780_th.o: .\Listings\User\HD44780.h
+.\objects\hd44780_th.o: .\Listings\User\LED.h
+.\objects\hd44780_th.o: C:\Keil_v5\Trial\ARM\ARMCC\Bin\..\include\string.h
+.\objects\hd44780_th.o: .\Listings\User\MMA8451Q_Drv.h

@@ -1,0 +1,19 @@
+--cpu Cortex-M0+
+".\objects\hd44780_th.o"
+".\objects\main.o"
+".\objects\mma8451q_th.o"
+".\objects\svc_table.o"
+".\objects\delay.o"
+".\objects\hd44780.o"
+".\objects\i2c.o"
+".\objects\led.o"
+".\objects\low_level_init.o"
+".\objects\mma8451q_drv.o"
+"C:\Keil_v5\Trial\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM0.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\startup_mkl25z4.o"
+".\objects\system_mkl25z4.o"
+--strict --scatter ".\Objects\project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\project.map" -o .\Objects\project.axf
